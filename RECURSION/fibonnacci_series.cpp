@@ -5,6 +5,7 @@ int fibbonaaci(int x){
     if (x == 1 || x == 2) return 1;
     return fibbonaaci(x - 1) + fibbonaaci(x - 2);
 }
+// Euler's tour tree
 int main(){
     int n;
     cout<<"enter a number : ";
