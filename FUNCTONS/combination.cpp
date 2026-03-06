@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-int combination(int n){
+int combination(int x){
     int fact = 1;
-    for (int i = 1; i <= n; i++){
+    for (int i = 1; i <= x; i++){
         fact *= i; 
     }
     return fact;
@@ -12,7 +12,7 @@ int main(){
     cout<<"Enter n : ";
     cin>>n;
     cout<<"Enter r : ";
-    cin>>r;
+    cin>>r; 
     int a = combination(n);
     int b = combination(r);
     int c = combination(n-r);
