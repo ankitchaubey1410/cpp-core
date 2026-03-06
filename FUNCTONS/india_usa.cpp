@@ -23,7 +23,7 @@ using namespace std;
 void usa(){
     cout<<"YOU ARE IN USA!!"<<endl;
     return;
-    cout<<"HEY❤️‍🩹"<<endl;// it will not print because of return
+    cout<<"HEY BABE!!"<<endl;// it will not print because of return
 }
 int main(){
     usa();
