@@ -13,7 +13,7 @@ int combination(int n , int r){
     int c = factorial(n-r);
     return a/(b*c);
 }
-void pascal(int x){
+void pascal_triangle(int x){
     for (int i = 0; i < x; i++){
         for (int j = 0; j <= i; j++){
             cout<<combination(i,j)<<" ";
@@ -24,5 +24,9 @@ void pascal(int x){
 }
 
 int main(){
-    pascal(5);
+    int n;
+    cout<<"enter a number : ";
+    cin>>n;
+    pascal_triangle(n);
+    return 0;
 }
