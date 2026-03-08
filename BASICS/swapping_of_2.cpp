@@ -5,9 +5,9 @@ int main(){
     int x = 2;
     int y = 5;
     cout<<"current values : "<<x<<"  "<<y<<endl;
-    int z = x;
+    int temp = x;
     x = y;
-    y = z;
+    y = temp;
     cout<<"new values : "<<x<<"  "<<y;
     
     return 0;
