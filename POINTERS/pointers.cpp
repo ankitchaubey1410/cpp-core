@@ -8,5 +8,9 @@ int main(){
     cout<<"Value at that address : "<<*(&x)<<endl;  // dereference or star operator
     cout<<"Value at that address : "<<*p<<endl;
     cout<<"Address of p : "<<&p<<endl;
+
+    int a = 100;
+    cout << "Value of variable a stored at address " << &a << " is " << (*(&a)) << endl;
+    
     return 0;
 }
