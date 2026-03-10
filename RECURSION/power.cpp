@@ -6,9 +6,9 @@ int power(int a, int b){
 }
 int main(){
     int x, y;
-    cout<<"enter x : ";
+    cout<<"enter base : ";
     cin>>x;
-    cout<<"enter y : ";
+    cout<<"enter power : ";
     cin>>y;
     cout<<power(x, y)<<endl;
     return 0;
