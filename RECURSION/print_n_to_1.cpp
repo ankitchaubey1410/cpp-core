@@ -6,6 +6,8 @@ void print(int n){
     print(n - 1);
 }
 int main(){
-    print(10);
-    print(99);
+    int n;
+    cout<<"enter a number : ";
+    cin>>n;
+    print(n);
 }
