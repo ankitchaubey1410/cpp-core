@@ -10,6 +10,6 @@ int main(){
     cin>>x;
     cout<<"enter power : ";
     cin>>y;
-    cout<<power(x, y)<<endl;
+    cout<<x<<" raised to the power "<<y<<" is : "<<power(x, y)<<endl;
     return 0;
 }
