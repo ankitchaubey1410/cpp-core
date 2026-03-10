@@ -1,7 +1,10 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
+
 int main(){
+
+    
     int n;
     cout<<"ENTER A NUMBER:";
     cin>>n;
