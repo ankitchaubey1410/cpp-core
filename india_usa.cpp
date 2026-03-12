@@ -9,7 +9,7 @@ void india(){
     return;
 }
 int main(){
-    cout<<"YOU ARE IN MAIN";
+    cout<<"YOU ARE IN MAIN"<<endl;
     usa();
     india();
 }
