@@ -10,7 +10,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         // Left wing
         for (int j = 1; j <= i; j++) {
-            cout << "*";
+            cout << "🦋";
         }
         // Spaces
         for (int j = 1; j <= 2 * (n - i); j++) {
@@ -18,7 +18,7 @@ int main() {
         }
         // Right wing
         for (int j = 1; j <= i; j++) {
-            cout << "*";
+            cout << "🦋";
         }
         cout << endl;
     }
@@ -27,7 +27,7 @@ int main() {
     for (int i = n; i >= 1; i--) {
         // Left wing
         for (int j = 1; j <= i; j++) {
-            cout << "*";
+            cout << "🦋";
         }
         // Spaces
         for (int j = 1; j <= 2 * (n - i); j++) {
@@ -35,7 +35,7 @@ int main() {
         }
         // Right wing
         for (int j = 1; j <= i; j++) {
-            cout << "*";
+            cout << "🦋";
         }
         cout << endl;
     }
