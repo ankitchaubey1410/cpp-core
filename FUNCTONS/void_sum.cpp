@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void(int a, int b){ // formal parameters
+void sum(int a, int b){ // formal parameters
     cout<<a+b;
 }
 int main(){
