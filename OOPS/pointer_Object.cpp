@@ -36,7 +36,7 @@ int main(){
     // cout<<c1.avg<<endl;
     
     // Static Allocation
-    Cricketer* p1 = &c1;
+    Cricketer* p1 = &c1; // In compile time memory allocate
     cout<<p1->runs<<endl; // 25000
     cout<<c1.avg<<endl;
     p1->avg = 77.5; // c1.avg = 77.5
