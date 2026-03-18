@@ -7,9 +7,9 @@ public:
     float cgpa;
     int rno;
 
-    //Constructor
-
-    Student(string s , int r , float g){
+    // Constructor
+    // Don't have any return type
+    Student(string s , int r , float g){ //Constructor Calling 
         name = s;
         rno = r;
         cgpa = g; 
@@ -17,7 +17,7 @@ public:
 };
 int main(){
 
-    Student s1("reze" , 69 , 8.1);
+    Student s1("reze" , 69 , 8.1); // Pass by Value
     Student s2("rika" , 88 , 7.9);
     
     cout<<s1.name<<" "<<s1.cgpa<<" "<<s1.rno<<endl;
