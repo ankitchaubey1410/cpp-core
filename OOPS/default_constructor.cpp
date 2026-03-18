@@ -15,7 +15,7 @@ public:
     // if constructor is defined by the user then default constructor got unable that's why we unable use normal method of initializing values
 
     // Student(string s , int r , float g){ // Parameterised Constructor 
-    Student(string s , int r){ // Parameterised Constructor 
+    Student(string s , int r){
         name = s;
         rno = r;
     }
