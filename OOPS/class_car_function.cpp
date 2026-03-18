@@ -16,7 +16,7 @@ void print(Car c){
 //     c.name = "Audi A800";
 // }
 
-void change(Car& c){ // Pass by Reference
+void change(Car& c){ // Pass by Reference and Shallow Copy
     c.name = "Audi A800";
 }
 
