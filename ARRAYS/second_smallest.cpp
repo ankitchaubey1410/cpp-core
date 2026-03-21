@@ -1,3 +1,5 @@
+// Second Smallest element in an array
+
 #include<iostream>
 #include<climits>
 using namespace std;
