@@ -1,3 +1,5 @@
+// Hollow square of number
+
 #include <iostream>
 using namespace std;
 
@@ -15,6 +17,5 @@ int main() {
         }
         cout << endl;
     }
-
     return 0;
 }
