@@ -7,6 +7,11 @@ public:
     float length;
     float breadth;
 
+    Rectangle(float l,float b){
+        length = l;
+        breadth = b;
+    }
+
     float area(){
         return length * breadth;
     }
@@ -16,9 +21,7 @@ public:
 };
 
 int main(){
-    Rectangle r1;
-    r1.length = 12;
-    r1.breadth = 10;
+    Rectangle r1(10, 12);
 
     cout<<"Area = "<<r1.area()<<endl;
 
