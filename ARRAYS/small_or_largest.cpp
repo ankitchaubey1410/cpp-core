@@ -6,15 +6,16 @@ int main(){
     int smallest = INT_MAX;
     int largest = INT_MIN;
     for (int i=0; i<6; i++){
-        if (arr[i]<smallest){
-            smallest = arr[i];
-        }
-        else if (arr[i]>largest){
-            largest = arr[i];
-        }
+        // if (arr[i]<smallest){
+        //     smallest = arr[i];
+        // }
+        smallest = min(arr[i], smallest);
+        // else if (arr[i]>largest){
+        //     largest = arr[i];
+        // }
         
     }
     cout<<"smallest : "<<smallest<<endl;
-    cout<<"largest : "<<largest<<endl;
+    // cout<<"largest : "<<largest<<endl;
     return 0;
 }
