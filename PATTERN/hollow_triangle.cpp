@@ -1,4 +1,4 @@
-// Hollo Triangle of a number
+// Hollow Triangle of a number
 
 #include <iostream>
 using namespace std;
