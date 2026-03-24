@@ -12,11 +12,10 @@ public:
     Student(string s , int r , float g){ //Constructor Calling 
         name = s;
         rno = r;
-        cgpa = g; 
+        cgpa = g;
     }
 };
 int main(){
-
     Student s1("reze" , 69 , 8.1); // Pass by Value
     Student s2("rika" , 88 , 7.9);
     
