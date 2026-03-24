@@ -1,3 +1,5 @@
+// To find smallest and largest number in an array
+
 #include<iostream>
 #include<climits> // it is used to get the limits of fundamental data types like int, char, long.
 using namespace std;
