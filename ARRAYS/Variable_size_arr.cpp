@@ -1,4 +1,12 @@
 #include<bits/stdc++.h>
+// this contains : #include <iostream>
+//               : #include <vector>
+//               : #include <algorithm>
+//               : #include <map>
+//               : #include <set>
+//               : #include <cmath>
+
+// #include<iostream>
 using namespace std;
 int main(){
     int n;
