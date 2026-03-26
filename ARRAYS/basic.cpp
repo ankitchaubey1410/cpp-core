@@ -7,10 +7,11 @@ int main(){
     // int marks[5];
     // indexing from 0 to size-1
 
-    // double price[] = {98.99, 105.67, 30.00}; // size = 3
-
     // marks[0] = 101;
     // cout<<marks[0]<<endl;
+    
+    // double price[] = {98.99, 105.67, 30.00}; // size = 3
+
 
     /*
     // loops
