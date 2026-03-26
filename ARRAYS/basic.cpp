@@ -9,7 +9,9 @@ int main(){
 
     // marks[0] = 101;
     // cout<<marks[0]<<endl;
-    
+    // marks[1] = 102;
+    // cout<<marks[1]<<endl;
+
     // double price[] = {98.99, 105.67, 30.00}; // size = 3
 
 
