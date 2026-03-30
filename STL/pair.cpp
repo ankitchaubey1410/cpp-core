@@ -7,6 +7,9 @@ void explainpair(){
     cout<<pr2.first<<" "<<pr2.second<<endl;
     pair<int, float> pr3 = make_pair(1, 99.9);
     cout<<pr3.first<<" "<<pr3.second<<endl;
+    // Nested pair which can store multiple data types
+    pair<pair<int, string>, char> pr4 = {{99, "WOLVERINE - "}, 'X'};
+    cout<<pr4.first.first<<" "<<pr4.first.second<<" "<<pr4.second<<endl;
 }
 int main(){
     explainpair();
