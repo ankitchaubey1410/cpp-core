@@ -8,6 +8,8 @@ void explainvector(){
     vec.push_back(0);
     // Instead of using push_back you can use emplace_back
     vec.emplace_back(6);
+    vec.emplace_back(23);
+    vec.emplace_back(88);
     cout<<vec.size()<<endl;
 
 }
