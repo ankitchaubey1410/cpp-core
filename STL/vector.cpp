@@ -12,6 +12,9 @@ void explainvector(){
     vec.emplace_back(88);
     cout<<vec.size()<<endl;
 
+    for (int i = 0; i < vec.size(); i++){
+        cout<<vec[i]<<" ";
+    }
 }
 int main(){
     explainvector();
