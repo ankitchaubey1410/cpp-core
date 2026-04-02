@@ -2,6 +2,7 @@
 using namespace std;
 void explainvector(){
     vector<int> vec;
+    // vector<int> vec = {7, 8} ;
     vec.push_back(-1);
     vec.push_back(99);
     vec.push_back(-14);
@@ -50,6 +51,10 @@ void explainvector(){
     }
     cout<<endl;
 
+    vector<int> dupvec = vec;
+    for (auto i: dupvec){
+        cout<< i <<" ";
+    }
 
 }
 int main(){
