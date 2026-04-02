@@ -24,12 +24,24 @@ void explainvector(){
     cout<<endl;
     
     // Iterators - It is an object which points to an element of a container and has the ability to iterate through the elements of the container.
-    vector<int> :: iterator beginITR = vec.begin();
-    vector<int> :: iterator endITR = vec.end();
+    // vector<int> :: iterator beginITR = vec.begin();
+    // vector<int> :: iterator endITR = vec.end();
+
+    // auto - It is a keyword in C++ that allows the compiler to automatically deduce the type of a variable from its initializer. It is often used with iterators to simplify code and improve readability.
+    /*
+    auto beginITR = vec.begin();
+    auto endITR = vec.end();
     for (vector<int> :: iterator i = beginITR; i < endITR; i++){
         cout<<*i<<" ";
     }
     cout<<endl;
+    */
+
+    for (auto i : vec){
+        cout<< i <<" ";
+    }
+    cout<<endl;
+
 }
 int main(){
     explainvector();
