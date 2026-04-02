@@ -42,6 +42,15 @@ void explainvector(){
     }
     cout<<endl;
 
+    // Reverse Iterator
+    auto reverseITR = vec.rbegin();
+    auto reverseEndITR = vec.rend();
+    for (auto i = reverseITR; i < reverseEndITR; i++){
+        cout<<*i<<" ";
+    }
+    cout<<endl;
+
+
 }
 int main(){
     explainvector();
