@@ -48,22 +48,22 @@ public:
 };
 int  main(){
     Vector v;
-    cout<<v.size<<" "<<v.capacity<<endl;
-        v.add(10);
+    // cout<<v.size<<" "<<v.capacity<<endl;
+    v.add(10);
     v.print();
-    cout<<v.size<<" "<<v.capacity<<endl;
-        v.add(11);
+    // cout<<v.size<<" "<<v.capacity<<endl;
+    v.add(11);
     v.print();
-    cout<<v.size<<" "<<v.capacity<<endl;
-        v.add(12);
+    // cout<<v.size<<" "<<v.capacity<<endl;
+    v.add(12);
     v.print();
-    cout<<v.size<<" "<<v.capacity<<endl;
-        v.add(13);
+    // cout<<v.size<<" "<<v.capacity<<endl;
+    v.add(13);
     v.print();
-    cout<<v.size<<" "<<v.capacity<<endl;
-        v.add(14);
+    // cout<<v.size<<" "<<v.capacity<<endl;
+    v.add(14);
     v.print();
-    cout<<v.size<<" "<<v.capacity<<endl;
+    // cout<<v.size<<" "<<v.capacity<<endl;
 
     cout<<v.get(2)<<endl;
 }
