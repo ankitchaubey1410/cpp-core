@@ -27,7 +27,7 @@ public:
         }
         cout<<endl;
     }
-    void get(int index){
+    int get(int index){
         if (size == 0){
             cout<<"Array is empty!!"<<endl;
             return -1;
@@ -38,7 +38,7 @@ public:
         }
         return arr[index];
     }
-    void remove(){
+    int remove(){
         if (size == 0){
             cout<<"Array is empty!!"<<endl;
             return -1;
