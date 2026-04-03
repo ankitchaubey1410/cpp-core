@@ -65,5 +65,7 @@ int  main(){
     v.print();
     // cout<<v.size<<" "<<v.capacity<<endl;
 
-    cout<<v.get(2)<<endl;
+    // cout<<v.get(2)<<endl;
+    v.remove();
+    v.print();
 }
