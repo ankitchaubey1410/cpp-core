@@ -38,10 +38,9 @@ public:
         }
         return arr[index];
     }
-    int remove(){
+    void remove(){
         if (size == 0){
             cout<<"Array is empty!!"<<endl;
-            return -1;
         }
         size--;
     }
