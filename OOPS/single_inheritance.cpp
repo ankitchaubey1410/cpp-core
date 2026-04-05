@@ -3,7 +3,21 @@ using namespace std;
 class Scooty{
 public:
     int topSpeed;
-    float mileage; 
+    float mileage;
+    Scooty(){
+
+    }
+    Scooty(int t, float m, int b){
+        topSpeed = t;
+        mileage = m;
+        bootSpace = b;
+    }
+    int setBootSpace(int b){
+        bootSpace = b;
+    }
+    int getBootSpace(){
+        return bootSpace;
+    }
 private:
     int bootSpace;
 };
@@ -19,4 +33,6 @@ int main(){
     cout << "Top Speed: " << b1.topSpeed << endl;
     cout << "Mileage: " << b1.mileage << endl;
     cout << "Gears: " << b1.gears << endl;
+    b1.setBootSpace(20);
+    cout << "Boot Space: " << b1.getBootSpace() << endl;
 }
