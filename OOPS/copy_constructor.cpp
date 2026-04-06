@@ -14,7 +14,7 @@ public:
 };
 int main(){
     Student s1("Maki" , 20 , 9.8);
-    Student s2 = s1; // Deep Copy 
+    Student s2 = s1; // Shallow Copy 
     s2.name = "Yuta";
 
     Student s3(s1); // Copy constructor - Call
