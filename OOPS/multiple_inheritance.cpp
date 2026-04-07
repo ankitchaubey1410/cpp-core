@@ -11,13 +11,13 @@ public:
     int experience;
     string domain;
 };
-class Psycho : public Engineer, Cricketer{ // multiple inheritance
+class Psycho : public Engineer, public Cricketer{ // multiple inheritance
 public:
     string name;
-}
+};
 int main(){
     Psycho p;
-    p.name = "John Doe";
+    p.name = "Mia ZZZ";
     p.experience = 5;
     p.domain = "Software";
     p.runs = 1000;
