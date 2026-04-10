@@ -37,9 +37,9 @@ int main(){
     c2.price = 900000;
     c2.type = "Hatchback";
     c2.seats = 5;
-    print(c2);
-    change2(c2); // Pass by Reference
-    print(c2);
+    print(c1);
+    change2(c1); // Pass by Reference
+    print(c1);
 
     Car c3;
     c3.name = "Totoya Fortuner";
