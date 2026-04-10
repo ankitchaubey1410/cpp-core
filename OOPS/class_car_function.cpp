@@ -12,11 +12,11 @@ void print(Car c){
     cout<<c.name<<" "<<c.price<<" "<<c.type<<" "<<c.seats<<endl;
 }
 
-// void change(Car c){
-//     c.name = "Audi A800";
-// }
+void change(Car c){
+    c.name = "Audi A800";
+}
 
-void change(Car& c){ // Pass by Reference and Shallow Copy
+void change2(Car& c){ // Pass by Reference and Shallow Copy
     c.name = "Audi A800";
 }
 
@@ -30,7 +30,10 @@ int main(){
     print(c1);
     change(c1); // Pass by Value
     print(c1);
-
+    
+    print(c2);
+    change2(c2); // Pass by Reference
+    print(c2);
 
     Car c2;
     c2.name = "Suzuki Swift";
@@ -44,8 +47,8 @@ int main(){
     c3.type = "SUV";
     c3.seats = 8;
     
-    print(c2);
-    print(c3);
+    // print(c2);
+    // print(c3);
 
     return 0;
 }
