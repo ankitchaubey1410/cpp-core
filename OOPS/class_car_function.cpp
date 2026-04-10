@@ -31,15 +31,15 @@ int main(){
     change(c1); // Pass by Value
     print(c1);
     
-    print(c2);
-    change2(c2); // Pass by Reference
-    print(c2);
-
+    
     Car c2;
     c2.name = "Suzuki Swift";
     c2.price = 900000;
     c2.type = "Hatchback";
     c2.seats = 5;
+    print(c2);
+    change2(c2); // Pass by Reference
+    print(c2);
 
     Car c3;
     c3.name = "Totoya Fortuner";
