@@ -12,6 +12,9 @@ public:
         cout<<aa<<endl;
     }
 
+    Test operator++(int){
+        aa = aa + 1;
+    }
     Test operator++(){
         aa = aa + 1;
     }
@@ -19,6 +22,10 @@ public:
 int main(){
     Test t1(5);
     t1.display();
-    ++t1;
-    cout<<t1.aa;
+    ++t1; // pre increment
+    t1.display();
+    t1++; // post increment
+    // cout<<t1.aa;
+    t1.display();
+
 }
