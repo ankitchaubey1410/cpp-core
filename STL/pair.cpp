@@ -1,4 +1,5 @@
 // Pairs in STL DSA
+// It allows you to store two values together as a single unit.
 
 #include<bits/stdc++.h>
 using namespace std;
