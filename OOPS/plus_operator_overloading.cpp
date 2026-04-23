@@ -17,8 +17,9 @@ public:
     }
     
     Marks operator+(Marks x){
-        Marks sum (x.math + math ,phys + x.phys); 
-        return sum;// x.math = m2.math and math = m1.math
+        // Marks sum (x.math + math ,phys + x.phys); 
+        // return sum;// x.math = m2.math and math = m1.math
+        return Marks(x.math + math ,phys + x.phys);
     }
 };
 int main(){
