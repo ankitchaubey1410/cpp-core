@@ -23,24 +23,25 @@ void change(Cricketer* c){ // Cricketer& c is pass by reference
 
 int main(){
     Cricketer c1("Virat Kohli" , 25000 , 55.2);
-    // cout<<c1.avg<<endl;
-    // change(&c1);
-    // cout<<c1.avg<<endl;
-    // Cricketer c2("Rohit Sharma" , 18000 , 47.8);
+    cout<<c1.avg<<endl;
+    change(&c1);
+    cout<<c1.avg<<endl;
+    Cricketer c2("Rohit Sharma" , 18000 , 47.8);
 
-    // Cricketer* p1 = &c1;
-    // cout<<c1.runs<<endl; // 25000
-    // cout<<(*p1).runs<<endl; // 25000
-    // cout<<c1.avg<<endl;
-    // (*p1).avg = 77.5; // c1.avg = 77.5
-    // cout<<c1.avg<<endl;
+    Cricketer* p2 = &c2;
+    cout<<c2.runs<<endl; // 18000
+    cout<<(*p2).runs<<endl; // 18000
+    cout<<c2.avg<<endl;
+    (*p2).avg = 77.5; // c2.avg = 77.5
+    cout<<c2.avg<<endl;
     
-    // Static Allocation
-    Cricketer* p1 = &c1; // In compile time memory allocate
-    cout<<p1->runs<<endl; // 25000
-    cout<<c1.avg<<endl;
-    p1->avg = 77.5; // c1.avg = 77.5
-    cout<<c1.avg<<endl;
+    Cricketer c3("Shalini Subramaniam" , 99000 , 99.8);
+    // // Static Allocation
+    Cricketer* p3 = &c3; // In compile time memory allocate
+    cout<<p3->runs<<endl; // 99000
+    cout<<c3.avg<<endl;
+    p3->avg = 55.5; // c3.avg = 55.5
+    cout<<c3.avg<<endl;
 
 
 }
