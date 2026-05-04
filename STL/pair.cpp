@@ -1,4 +1,4 @@
-// Pairs in STL dsa 
+// Pairs in STL DSA
 
 #include<bits/stdc++.h>
 using namespace std;
